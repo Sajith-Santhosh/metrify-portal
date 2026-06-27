@@ -1,0 +1,89 @@
+{
+  "propertyId": "property-789",
+  "customer": {
+    "name": "Metrify MFH"
+  },
+  "property": {
+    "address": "Hafenstrasse 9, 20457 Hamburg"
+  },
+  "meterExchanges": [
+    {
+      "id": "mx-201",
+      "location": "1st floor (Unit 1)",
+      "meterId": "3234567890",
+      "status": "Customer Data Awaiting"
+    },
+    {
+      "id": "mx-202",
+      "location": "1st floor (Unit 2)",
+      "meterId": "3234567891",
+      "status": "Customer Data Awaiting"
+    },
+    {
+      "id": "mx-203",
+      "location": "2nd floor (Unit 3)",
+      "meterId": "3234567892",
+      "status": "Customer Data Submitted"
+    },
+    {
+      "id": "mx-204",
+      "location": "2nd floor (Unit 4)",
+      "meterId": "3234567893",
+      "status": "Customer Data Submitted"
+    },
+    {
+      "id": "mx-205",
+      "location": "3rd floor (Unit 5)",
+      "meterId": "3234567894",
+      "status": "Installation Scheduled"
+    },
+    {
+      "id": "mx-206",
+      "location": "3rd floor (Unit 6)",
+      "meterId": "3234567895",
+      "status": "Installation Scheduled"
+    },
+    {
+      "id": "mx-207",
+      "location": "4th floor (Unit 7)",
+      "meterId": "3234567896",
+      "status": "Installation Completed"
+    },
+    {
+      "id": "mx-208",
+      "location": "4th floor (Unit 8)",
+      "meterId": "3234567897",
+      "status": "Installation Completed"
+    },
+    {
+      "id": "mx-209",
+      "location": "5th floor (Unit 9)",
+      "meterId": "3234567898",
+      "status": "First Measurement Received"
+    },
+    {
+      "id": "mx-210",
+      "location": "5th floor (Unit 10)",
+      "meterId": "3234567899",
+      "status": "First Measurement Received"
+    },
+    {
+      "id": "mx-211",
+      "location": "6th floor (Unit 11)",
+      "meterId": "3234567900",
+      "status": "Installation Completed"
+    },
+    {
+      "id": "mx-212",
+      "location": "6th floor (Unit 12)",
+      "meterId": "3234567901",
+      "status": "Customer Data Submitted"
+    },
+    {
+      "id": "mx-213",
+      "location": "Basement (Common areas)",
+      "meterId": "3234567902",
+      "status": "Customer Data Awaiting"
+    }
+  ]
+}

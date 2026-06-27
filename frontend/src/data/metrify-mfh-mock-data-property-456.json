@@ -1,0 +1,35 @@
+{
+  "propertyId": "property-456",
+  "customer": {
+    "name": "Metrify MFH"
+  },
+  "property": {
+    "address": "Beispielweg 3, 80331 Muenchen"
+  },
+  "meterExchanges": [
+    {
+      "id": "mx-101",
+      "location": "Basement (Meter room)",
+      "meterId": "2234567890",
+      "status": "First Measurement Received"
+    },
+    {
+      "id": "mx-102",
+      "location": "1st floor right",
+      "meterId": "2234567891",
+      "status": "First Measurement Received"
+    },
+    {
+      "id": "mx-103",
+      "location": "1st floor left",
+      "meterId": "2234567892",
+      "status": "First Measurement Received"
+    },
+    {
+      "id": "mx-104",
+      "location": "2nd floor right",
+      "meterId": "2234567893",
+      "status": "First Measurement Received"
+    }
+  ]
+}

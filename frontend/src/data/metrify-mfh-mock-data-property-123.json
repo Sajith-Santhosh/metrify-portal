@@ -1,0 +1,71 @@
+{
+  "propertyId": "property-123",
+  "customer": {
+    "name": "Metrify MFH"
+  },
+  "property": {
+    "address": "Musterstrasse 12, 10115 Berlin"
+  },
+  "meterExchanges": [
+    {
+      "id": "mx-001",
+      "location": "Ground floor right",
+      "meterId": "1234567890",
+      "status": "Customer Data Awaiting"
+    },
+    {
+      "id": "mx-002",
+      "location": "Ground floor left",
+      "meterId": "1234567891",
+      "status": "Customer Data Submitted"
+    },
+    {
+      "id": "mx-003",
+      "location": "1st floor right",
+      "meterId": "1234567892",
+      "status": "Installation Scheduled"
+    },
+    {
+      "id": "mx-004",
+      "location": "1st floor left",
+      "meterId": "1234567893",
+      "status": "Installation Completed"
+    },
+    {
+      "id": "mx-005",
+      "location": "2nd floor right",
+      "meterId": "1234567894",
+      "status": "First Measurement Received"
+    },
+    {
+      "id": "mx-006",
+      "location": "2nd floor left",
+      "meterId": "1234567895",
+      "status": "Customer Data Awaiting"
+    },
+    {
+      "id": "mx-007",
+      "location": "3rd floor right",
+      "meterId": "1234567896",
+      "status": "Customer Data Submitted"
+    },
+    {
+      "id": "mx-008",
+      "location": "3rd floor left",
+      "meterId": "1234567897",
+      "status": "Installation Scheduled"
+    },
+    {
+      "id": "mx-009",
+      "location": "Attic right",
+      "meterId": "1234567898",
+      "status": "Installation Completed"
+    },
+    {
+      "id": "mx-010",
+      "location": "Attic left",
+      "meterId": "1234567899",
+      "status": "First Measurement Received"
+    }
+  ]
+}
