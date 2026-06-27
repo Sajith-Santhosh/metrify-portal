@@ -1,0 +1,20 @@
+{
+  "customerId": "customer-001",
+  "customer": {
+    "name": "Metrify MFH"
+  },
+  "properties": [
+    {
+      "propertyId": "property-123",
+      "address": "Musterstrasse 12, 10115 Berlin"
+    },
+    {
+      "propertyId": "property-456",
+      "address": "Beispielweg 3, 80331 Muenchen"
+    },
+    {
+      "propertyId": "property-789",
+      "address": "Hafenstrasse 9, 20457 Hamburg"
+    }
+  ]
+}

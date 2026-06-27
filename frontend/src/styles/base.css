@@ -1,0 +1,67 @@
+.app {
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 80px;
+}
+
+.header-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.header h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--header-text);
+}
+
+.header p {
+  font-size: 12px;
+  opacity: 0.65;
+  color: var(--header-text);
+}
+
+.dark-mode-btn {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.08);
+  color: var(--header-text);
+  border: 1px solid rgba(255,255,255,0.15);
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.dark-mode-btn:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

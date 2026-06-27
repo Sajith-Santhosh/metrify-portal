@@ -1,0 +1,7 @@
+services:
+  metrify-portal:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
