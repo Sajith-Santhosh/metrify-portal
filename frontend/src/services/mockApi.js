@@ -11,8 +11,11 @@ const propertyMap = {
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
-export const getCustomer = async () => {
+export const getCustomer = async (customerId) => {
   await delay(500)
+  if (customerId !== 'customer-001') {
+    throw new Error(`Customer ${customerId} not found`)
+  }
   return customerData
 }
 

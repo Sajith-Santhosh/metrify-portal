@@ -2,8 +2,8 @@ const Header = ({ customerName, properties, selectedProperty, onPropertyChange, 
   return (
     <header className="header">
       <div className="header-center">
-        <h1>{customerName}</h1>
-        <p>Meter Exchange Portal</p>
+        <h1>Meter Exchange Portal</h1>
+        <p>Client Name: {customerName}</p>
         <select
           className="property-select"
           value={selectedProperty}

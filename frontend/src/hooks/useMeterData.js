@@ -10,7 +10,7 @@ const useMeterData = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const customerData = await getCustomer()
+        const customerData = await getCustomer('customer-001')
         setCustomer(customerData)
 
         const results = await Promise.all(
